@@ -1,0 +1,55 @@
+.bgimage{
+    background-image: url('image/burger1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+.bgcolor{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.horizontalnavbar{
+    height: 8%;
+    
+    
+}
+.horizontalnavbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 0;
+}
+.horizontalnavbar ul a{
+    text-decoration: none;
+    color: white;
+}
+.imiive{
+    font-size: 42px;
+    position: relative;
+}
+.signup{
+    background-color: yellow;
+    float: right;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    margin-right:20px ;
+}
+.text{
+    
+    font-size: 35px;
+}
+span{
+    color: yellow;
+}
+.verticalbar{
+    background-color: yellow;
+    height: 46%;
+    width: 5%;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+
+}
+.navbar{
+    display: flex;
+    padding: 40px 120px;
+}
+.navlogo{
+    width: 135px;
+    font-size: 40px;
+    color: white;
+}
+.navlinks{
+    flex: 1;
+}
+.navlinks ul{
+    margin-left: 10px;
+    display: inline;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px,35px;
+    width: 10%;
+
+}
+.navlinks ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.navlinks ul li:hover::after{
+    width: 50%;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navlinks .btn{
+    float: right;
+}
+.bannertitle{
+    margin: 80px 130px;
+    color: white;
+    font-size: 25px;
+}
+.bannertitlte h1{
+    font-size: 74px;
+    margin-bottom: 30px;
+
+}
+span{
+    color: yellow;
+}
+.verticalbar{
+    height: 80%;
+    background: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+.searchicon{
+    height: 60%;
+    width: 80px;
+}
+.searchicon .fa{
+    margin: 45px 23px;
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+.socialicons{
+    height: 70%;
+    width:  80px;
+    background-color: yellow;
+}
+.socialicons .fa{
+    margin: 35px 30px;
+    display: block;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    
+    padding: 8px 8px 8px 8px;
+}
+

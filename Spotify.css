@@ -1,0 +1,23 @@
+.button{
+    border: 1 px;
+    border-radius: 25px;
+    border-color: navy;
+    background-color: navy;
+    height: 35px;
+    width: 300px;
+    color: oldlace;
+}
+.box{
+    border: 1 px;
+    border-radius: 25px;
+    border-color:green;
+    background-color:green;
+    height: 35px;
+    width: 300px;
+    color: oldlace;
+}
+.link{
+    text-decoration: none;
+    color: green;
+
+}
